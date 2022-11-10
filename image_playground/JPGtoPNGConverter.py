@@ -15,7 +15,6 @@ for image in os.listdir(parse_directory):
 	if image.endswith('.jpg'):
 		img_directory = os.path.join(parse_directory, image)
 		file_name = f'{os.path.splitext(image)[0]}.png'
-		print(file_name)
 		with Image.open(img_directory) as img:
 			png_save_path = os.path.join(save_directory, file_name)
 			img.save(png_save_path, 'png')
