@@ -1,0 +1,15 @@
+Machine Learning Steps
+  1 - Import the data (csv, etc.)
+  2 - Clean the data
+  3 - Split the data: Training Set/Test Set
+  4 - Create a Model (import typically)
+  5 - Check the output
+  6 - Improve
+
+Machine Learning Tools
+  1 - NumPy (multidimensional arrays and other lists/arrays)
+  2 - pandas (data analysis, dataframes, etc.)
+  3 - scikit-learn (create data models)
+  4 - matplotlib (charting library)
+  5 - jupyter notebooks
+  6 - Kaggle (actual data hard to get!) 
